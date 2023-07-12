@@ -7,7 +7,7 @@
 .collection .coll-item{
     border-radius:5px;
     padding:1.3rem;
-    background-image: url("../img/download.jpg");
+    background-image: url("../img/hmgoepprod.jpg");
     background-size:cover;
     background-position: center;
     display:flex;
@@ -21,11 +21,21 @@
     display:flex;
     justify-content: space-between;
 }
+.slideshow .text .upper{
+    font-size:90px;
+    color:#444342;
+}
+.slideshow .text .lower{
+    color:#ffffff;
+    font-size:90px;
+}
 .title .upper{
     font-size:80px;
+    color:#444342;
 }
 .title .lower{
     font-size:80px;
+    color:#ffffff;
 }
 .newest-product .description{
     display:flex;
@@ -39,7 +49,7 @@
 }
 .products{
     display:grid;
-    grid-template-columns: repeat(4,300px);
+    grid-template-columns: repeat(4,275px);
     grid-template-rows: repeat(2,600px);
 }
 .products .prod-items{
@@ -96,17 +106,12 @@
 }
 .slideshow{
     display:flex;
-    align-items: space-between;
-}
-.slideshow .text .upper{
-    font-size: 90px;
-}
-.slideshow .text .lower{
-    font-size: 90px;
-    color:aquamarine
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
 }
 .slideshow .pics{
-    width: 80%;
+    width: 50%;
     height:100%;
 }
 .big-container{
@@ -156,7 +161,7 @@
 }
 .products1{
     display:grid;
-    grid-template-columns: repeat(4,300px);
+    grid-template-columns: repeat(4,275px);
     grid-template-rows: repeat(1,600px);
 }
 .products1 .prod-items{
