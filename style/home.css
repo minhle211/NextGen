@@ -1,0 +1,274 @@
+.collection{
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(1,500px);
+    gap:1rem;
+}
+.collection .coll-item{
+    border-radius:5px;
+    padding:1.3rem;
+    background-image: url("../img/download.jpg");
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.collection .coll-item .coll-text{
+    padding:0.8rem;
+    background-color:aliceblue;
+    border-radius:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.title .upper{
+    font-size:80px;
+}
+.title .lower{
+    font-size:80px;
+}
+.newest-product .description{
+    display:flex;
+    justify-content: space-between;
+}
+.newest-product .description .text{
+    width:50%;
+}
+.newest-product .description .navigation{
+    margin:5px;
+}
+.products{
+    display:grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,600px);
+}
+.products .prod-items{
+    margin:0.8rem;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.products .prod-items .info{
+    display:flex;
+    justify-content: space-between;
+    background-color:#e1dedb;
+    padding: 10px;
+}
+.i1{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/hmgoepprod.jpg);
+}
+.i2{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/hmgoepprod.jpg);
+}
+.i3{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/hmgoepprod.jpg);
+}
+.i4{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/hmgoepprod.jpg);
+}
+.i5{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/hmgoepprod.jpg);
+}
+.i6{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/hmgoepprod.jpg);
+}
+.i7{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/hmgoepprod.jpg);
+}
+.navbar{
+    display:flex;
+    background-color: #e1dedb;
+}
+.slideshow{
+    display:flex;
+    align-items: space-between;
+}
+.slideshow .text .upper{
+    font-size: 90px;
+}
+.slideshow .text .lower{
+    font-size: 90px;
+    color:aquamarine
+}
+.slideshow .pics{
+    width: 80%;
+    height:100%;
+}
+.big-container{
+    display:flex;
+    background-color: #1a1a1a;
+    width:100%;
+    height:800px;
+    align-items: center;
+}
+.big-container .sale{
+    width:36%;
+    display:flex;
+    justify-content: flex-end;
+}
+.big-container .sale-img{
+    width:250px;
+    height:250px;
+    margin:200px;
+}
+.big-container .finding .text{
+    color:white;
+    font-size:80px;
+}
+.finding{
+    display:flex;
+    flex-direction: column;
+}
+.big-container .finding .btnnavi{
+    background-color: white;
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+    width:35%;
+    height:80px;
+}
+.season-trending .description{
+    display:flex;
+    justify-content: space-between;
+}
+.season-trending .description .text{
+    width:50%;
+}
+.season-trending .description .navigation{
+    margin:5px;
+}
+.products1{
+    display:grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1,600px);
+}
+.products1 .prod-items{
+    margin:0.8rem;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.products1 .prod-items .info{
+    display:flex;
+    justify-content: space-between;
+    background-color:#e1dedb;
+    padding: 10px;
+}
+.main-container{
+    background-color: #1a1a1a;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:1500px;
+}
+.main-container .title1{
+    color:#f1f1f1;  
+    margin:200px 0px;
+}
+.main-container .title{
+    color:#f1f1f1;
+}
+.main-container .email{
+    width:25%;
+    height:50px;
+    background-color: #262524;
+    color:#8d8c8c;
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+.main-container .sub-box{
+    background-color:#f1f1f1;
+    width:25%;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    font-size:20px;
+    align-items: center;
+    margin:10px;
+}
+.tab{
+    display: inline-block;
+    margin-left: 1em;
+}
+.logo{
+    width:50px;
+    height:50px;
+    margin:5rem 0;
+}
+.findshop{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center ;
+    width:33%;
+    height:100%;
+    color:#f1f1f1;
+}
+.footer-container{
+    display:flex;
+    background-color: #262524;
+    height:1000px;
+
+}
+
+.more-info{
+    display:flex;
+    color:#8d8c8c;
+    justify-content: space-around;
+    align-items: center;
+    width:67%;
+    height:100%;
+    font-size:20px;
+}
+.footer-container .more-info .title{
+    font-size: 22px;
+    color:#f1f1f1;
+}
+.footer-container .findshop .blank{
+    width:40%;
+}
+
+.footer-container .findshop .content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center ;
+    width:60%;
+    height:100%;
+    color:#f1f1f1;
+}
+.footer-container .findshop .content .findshop-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #f1f1f1;
+    border-style:solid;
+    border-radius:5px;
+    width:175px;
+    height:50px;
+    margin: 0 0 3rem 0;
+}
+.icon{
+    margin:1rem 0;
+}
+.footer-container .findshop .content .text{
+    margin: 0 0 3rem 0;
+}

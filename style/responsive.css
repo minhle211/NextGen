@@ -1,0 +1,14 @@
+/* Tablet */
+@media only screen and (max-width: 768px) {
+    .collection{
+        display:grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(3,250px);
+        gap:1rem;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  
+}
