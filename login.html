@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <div class="login">
+                    <div class="login__field">
+                        <input type="text" id = "email" class="login__input" placeholder="Email">
+                    </div>
+                    <div class="login__field">
+                        <input type="password" id = "password" class="login__input" placeholder="Password">
+                    </div>
+                    <button id="login-btn" class="button login__submit">
+                        <span class="button__text">Log In Now</span>
+                    </button>
+                    <button id="register-nav" class="button login__submit">
+                        <span class="button__text">Register</span><a href="/register.html"></a>
+                    </button>				
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>	
+    </div>
+    <script src="./Firebase/login.js" type="module"></script>
+    <script src="./Firebase/login-nav.js" type="module"></script>
+</body>
+</html>
